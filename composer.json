@@ -1,0 +1,38 @@
+{
+  "name": "hoangdo/laravel-json-api",
+  "description": "The Json Response formatter library for laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hoang Do",
+      "email": "hoangdo.2194@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0|^8.1|^8.2",
+    "illuminate/http": "^v8.0|^v9.0|^v10.0",
+    "illuminate/config": "^v8.0|^v9.0|^v10.0",
+    "illuminate/support": "^v8.0|^v9.0|^v10.0",
+    "illuminate/console": "^v8.0|^v9.0|^v10.0",
+    "illuminate/validation": "^v8.0|^v9.0|^v10.0",
+    "illuminate/routing": "^v8.0|^v9.0|^v10.0",
+    "illuminate/broadcasting": "^v8.0|^v9.0|^v10.0"
+  },
+  "require-dev": {
+    "laravel-zero/foundation": "^v8.0|^v9.0|^v10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TopCV\\JsonApi\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HoangDo\\JsonApi\\Providers\\JsonApiServiceProvider"
+      ]
+    }
+  }
+}
